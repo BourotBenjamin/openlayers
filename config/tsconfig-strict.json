@@ -210,7 +210,6 @@
     "../src/ol/source/CartoDB.js",
     "../src/ol/source/Cluster.js",
     "../src/ol/source/DataTile.js",
-    "../src/ol/source/GeoTIFF.js",
     "../src/ol/source/IIIF.js",
     "../src/ol/source/Image.js",
     "../src/ol/source/ImageArcGISRest.js",

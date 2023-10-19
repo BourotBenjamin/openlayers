@@ -19,9 +19,7 @@ import {asArray, fromString, isStringColor} from '../color.js';
  *     are in the 0..1 range. {@link import("../source/TileImage.js").default} sources have 4 bands: red,
  *     green, blue and alpha. {@link import("../source/DataTile.js").default} sources can have any number
  *     of bands, depending on the underlying data source and
- *     {@link import("../source/GeoTIFF.js").Options configuration}. `xOffset` and `yOffset` are optional
- *     and allow specifying pixel offsets for x and y. This is used for sampling data from neighboring pixels.
- *   * `['get', 'attributeName', typeHint]` fetches a feature property value, similar to `feature.get('attributeName')`
+ *  * `['get', 'attributeName', typeHint]` fetches a feature property value, similar to `feature.get('attributeName')`
  *     A type hint can optionally be specified, in case the resulting expression contains a type ambiguity which
  *     will make it invalid. Type hints can be one of: 'string', 'color', 'number', 'boolean', 'number[]'
  *   * `['geometry-type']` returns a feature's geometry type as string, either: 'LineString', 'Point' or 'Polygon'

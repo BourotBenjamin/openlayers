@@ -16,7 +16,6 @@ export default {
     resolve({moduleDirectories: ['build', 'node_modules']}),
     commonjs(),
     externalGlobals({
-      geotiff: 'GeoTIFF',
       'ol-mapbox-style': 'olms',
     }),
     terser(),
